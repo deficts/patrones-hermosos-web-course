@@ -2,7 +2,7 @@
 
 **¡Hola! sí llegaste hasta acá quiere decir que vas a crear tu primera página web, aquí están algunas de las herramientas que estaremos utilizando!**
 
-**Esqueleto de nuestra webpage**
+Este es el squeleto de nuestra webpage
 ```html
 <!DOCTYPE html>
 <html>
