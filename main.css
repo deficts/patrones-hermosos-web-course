@@ -1,0 +1,29 @@
+body{
+    background: rgb(161,255,160);
+    background: linear-gradient(180deg, rgba(161,255,160,1) 36%, rgba(237,186,186,1) 92%) fixed;
+}
+
+#mi-foto{
+    border-radius: 100%;
+    width: 15rem;
+}
+
+#reloj{
+    background-color: black;
+    color: green;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.social-icon{
+    max-height: 30px;
+}
+
+.carta{
+    margin-top: 16px;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    padding:10px;
+    box-shadow: 0 0 20px 1px;
+}

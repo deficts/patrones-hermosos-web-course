@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    <title>Mi increíble primer webpage!</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col text-center">
+                <h1>Hola! Mi nombre es Diego!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center" >
+                <img id="mi-foto" src="./assets/yo.jpeg" alt="Una foto mía">
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-sm-12 col-md-6 offset-md-3">
+                <p>Soy un estudiante de ingeniería en software de Guadalajara, México 🇲🇽, me gusta hacer CrossFit y comer tacos.</p>
+                <div class="text-center">
+                    <a href="https://instagram.com/deficts" class="mr-2" style="text-decoration: none;">
+                        <img class="social-icon" src="./assets/social/instagram.png" alt="instagram">
+                    </a>
+                    <a href="https://twitter.com/deficts" class="mr-2" style="text-decoration: none;">
+                        <img class="social-icon" src="./assets/social/twitter.png" alt="instagram">
+                    </a>
+                    <a href="https://github.com/deficts" style="text-decoration: none;">
+                        <img class="social-icon" src="./assets/social/github.png" alt="instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-md-6 col-sm-12">
+                <div class="carta text-center">
+                    <h4> Escucha mi canción favorita del momento:</h4>
+                    <iframe style="margin: 0 auto;" src="https://open.spotify.com/embed/track/1yoMvmasuxZfqHEipJhRbp" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>    
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="carta text-center">
+                    <h4> Escucha mi canción favorita de siempre:</h4>
+                    <iframe src="https://open.spotify.com/embed/track/0f5B2p63SHBNHxuBzIr9qQ" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-md-5 col-md-2  col-sm-12 text-center">
+                <h4>La hora es:</h4>
+                <p id="reloj" clas="text-center"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
