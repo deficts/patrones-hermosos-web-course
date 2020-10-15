@@ -101,7 +101,7 @@ Este codigo HTML se debe de ver así:
     </tr>
 </table>
 
-![image](Image.png)
+![Image](Image.png)
 ### ¡Manos a la obra!
 Ahora te toca a tí. Has una tabla que tenga el nombre, la estatura y el nombre de la mascota de algunas de tus compañeras. Utiliza el código de ejemplo como idea para hacer el tuyo. Además coloca en tu página web algún enlace a un video, imágen u otra página que quieras.
 
