@@ -100,8 +100,10 @@ Este codigo HTML se debe de ver así:
         <td>11</td>
     </tr>
 </table>
+<p align="center">
+    <img src="https://github.com/deficts/patrones-hermosos-web-course/blob/day1/dia1/Imagen.png" width="200" height="200"/> 
+</p>
 
-![Image](Image.png)
 ### ¡Manos a la obra!
 Ahora te toca a tí. Has una tabla que tenga el nombre, la estatura y el nombre de la mascota de algunas de tus compañeras. Utiliza el código de ejemplo como idea para hacer el tuyo. Además coloca en tu página web algún enlace a un video, imágen u otra página que quieras.
 
