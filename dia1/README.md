@@ -101,7 +101,7 @@ Este codigo HTML se debe de ver así:
     </tr>
 </table>
 <p align="center">
-    <img src="https://github.com/deficts/patrones-hermosos-web-course/blob/day1/dia1/Imagen.png" width="200" height="200"/> 
+    <img src="https://github.com/deficts/patrones-hermosos-web-course/blob/day1/dia1/Imagen.png" width="400" height="400"/> 
 </p>
 
 ### ¡Manos a la obra!
