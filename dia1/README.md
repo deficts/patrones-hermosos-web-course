@@ -80,4 +80,20 @@ Este codigo HTML se debe de ver así:
     </tr>
 </table>
 
+### ¡Manos a la obra!
+Ahora te toca a tí. Has una tabla que tenga el nombre, la estatura y el nombre de la mascota de algunas de tus compañeras. Utiliza el código de ejemplo como idea para hacer el tuyo.
 
+###### Hasta el momento todo se ha visto muy plano. ¿Cómo le agrego personalidad a mi página?
+
+## Estilos
+Los estilos son atributos de las etiquetas. Nos permiten agregar características estéticas a nuestra pagina para modificar cómo se muestra el contenido. Los vamos a utilizar de esta forma.
+```
+<etiqueta style="propiedad:valor;">
+```
+donde propiedad es la característica que queremos modificar y valor es lo que le asignaremos a esa caracteística.
+La propiedad **color** nos permite modificar el color del texto. Checa este ejemplo:
+```html
+<p style="color:blue;">Este texto es azul</p>
+```
+*Ahora checa el resultado:*
+<p style="color:blue;">Este texto es azul</p>
