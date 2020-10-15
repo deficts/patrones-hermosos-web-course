@@ -104,6 +104,8 @@ La propiedad **color** nos permite modificar el color del texto. Checa este ejem
 
 Imagínate que quieres agregar demasiadas propiedades a un estilo. Esto podría hacer que las etiquetas se vuelvan largas y difíciles de entender, además de que tendrías que repetir todo el código del estilo cada vez que lo quisieras usar. Pensando en esto, existe CSS. 
 
+## CSS
+
 En CSS puedes crear todos los estilos que sean necesarios y llamarlos como clase en tu HTML. Piensa que puedes clasificar los elementos, y que acada elemento le puedes asignar una clase. ¿De qué clase es? Tú lo defines, y esa clase le dará estilo. 
 
 Antes de poder utilizar un CSS, tenemos que conectarlo con el HTML. Para eso vamos a usar la etiqueta **link**
