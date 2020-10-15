@@ -49,6 +49,27 @@ Al igual que tus tareas, las páginas de internet tienen encabezado y cuerpo. el
 *¿Notas como ponemos una pequeña sangría cuando escribimos una etiqueta dentro del campo de otras etiquetas (las etiquetas dentro de html)?
 Esto lo hacemos para que sea más sencillo leer el código. Además de que nos permite llevar el orden de como escribimos, es más sencillo entender lo que has hecho y si existe algún error, es mucho más fácil encontrarlo. Te sugerimos realizar esta buena práctica para que tu código no solo sea bonito cuando se muestra.*
 
+##  Hipervínculos 
+Los Hipervínculos son la forma que tenemos para enlazar nuestra página con otra o cargar videos .
+**Un hipervínculo, es una conexión directa entre dos espacios virtuales en el mundo digital. Es la forma más rápida que existe en internet de llegar de un punto a otro, con este viajamos a la velocidad de 1 clic.**
+
+Los hipervínculos se manejan con anclas y se colocan de la siguiente manera.
+```
+<a>..link..</a>
+```
+*Este es solo el principio, aún faltan mas elementos*
+
+Para que aparezca como un link y te permita enlazar tu página a otra o a un video se debe colocar lo siguiente. 
+```
+<a href="..link..">TITULO A DESPLEGAR</a>
+```
+**Es muy importante colocar el título ya que de lo contrario el enlace no tendrá donde mostrarse**
+
+Ejemplo
+```
+<a href="https://www.google.com/">Enlace a otra página</a>
+```
+
 ## Tablas
 La etiqueta **table** define una tabla. Las tablas tienen renglones, los cuales definiremos con la etiqueta **tr**. Para agregar celdas podemos utilizar dos tipos de etiquetas: **th** para indicar encabezados, y **td** para una celda común. Todas estas etiquetas tienen que tener su respectiva etiqueta de cierre. Checa este ejemplo:
 ```html
@@ -81,7 +102,7 @@ Este codigo HTML se debe de ver así:
 </table>
 
 ### ¡Manos a la obra!
-Ahora te toca a tí. Has una tabla que tenga el nombre, la estatura y el nombre de la mascota de algunas de tus compañeras. Utiliza el código de ejemplo como idea para hacer el tuyo.
+Ahora te toca a tí. Has una tabla que tenga el nombre, la estatura y el nombre de la mascota de algunas de tus compañeras. Utiliza el código de ejemplo como idea para hacer el tuyo. Además coloca en tu página web algún enlace a un video, imágen u otra página que quieras.
 
 ###### Hasta el momento todo se ha visto muy plano. ¿Cómo le agrego personalidad a mi página?
 
