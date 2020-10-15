@@ -48,6 +48,3 @@ Al igual que tus tareas, las páginas de internet tienen encabezado y cuerpo. el
 ```
 ¿Notas cómo ponemos una pequeña sangría cuando escribimos una etiqueta dentro del campo de otras etiquetas (las etiquetas dentro de html)?
 Esto lo hacemos para que sea más sencillo leer el código. Además de que nos permite llevar el orden de como escribimos, es más sencillo entender lo que has hecho y si existe algún error, es mucho más fácil encontrarlo. Te sugerimos realizar esta buena práctica para que tu código no solo sea bonito cuando se muestra.
-
-
-
