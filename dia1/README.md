@@ -100,11 +100,13 @@ Este codigo HTML se debe de ver así:
         <td>11</td>
     </tr>
 </table>
+
+### ¡Manos a la obra!
+
 <p align="center">
     <img src="https://github.com/deficts/patrones-hermosos-web-course/blob/day1/dia1/Imagen.png" width="400" height="400"/> 
 </p>
 
-### ¡Manos a la obra!
 Ahora te toca a tí. Has una tabla que tenga el nombre, la estatura y el nombre de la mascota de algunas de tus compañeras. Utiliza el código de ejemplo como idea para hacer el tuyo. Además coloca en tu página web algún enlace a un video, imágen u otra página que quieras.
 
 ###### Hasta el momento todo se ha visto muy plano. ¿Cómo le agrego personalidad a mi página?
