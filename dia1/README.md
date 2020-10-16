@@ -49,6 +49,39 @@ Al igual que tus tareas, las páginas de internet tienen encabezado y cuerpo. el
 *¿Notas como ponemos una pequeña sangría cuando escribimos una etiqueta dentro del campo de otras etiquetas (las etiquetas dentro de html)?
 Esto lo hacemos para que sea más sencillo leer el código. Además de que nos permite llevar el orden de como escribimos, es más sencillo entender lo que has hecho y si existe algún error, es mucho más fácil encontrarlo. Te sugerimos realizar esta buena práctica para que tu código no solo sea bonito cuando se muestra.*
 
+##  Texto 
+Existe diversos tamaños con los que presentar los diferentes textos en tu página, dependiendo de tu estilo o de la relevancia de cada uno. Empezemos
+
+Para escribir un párrafo sencillo este debe contar con las siguientes etiquetas 
+
+```
+<p>HOLA MUNDO DE LA PROGRAMACIÓ! Se conoce como software​ o logicial al soporte lógico de un sistema informático, que comprende el conjunto de los componentes lógicos necesarios que ...</p>
+```
+
+Puedes agregar diversos tamaños de títulos de la siguiente manera:
+```
+<h1>Titulo 1</h1>
+<h2>Titulo 2</h2>
+<h3>Titulo 3</h3>
+```
+Para el texto en negrita, use las etiquetas:
+    
+```
+<b>Bold Text Here</b>
+```
+
+Para el texto subrayado, use las etiquetas:
+    
+```
+<p>This paragraph contains some <u>mispelled</u> text.</p>
+```
+
+Para el texto en cursiva, use las etiquetas:
+    
+```
+<i>Italicized Text Here</i>
+```
+
 ##  Hipervínculos 
 Los Hipervínculos son la forma que tenemos para enlazar nuestra página con otra o cargar videos .
 **Un hipervínculo, es una conexión directa entre dos espacios virtuales en el mundo digital. Es la forma más rápida que existe en internet de llegar de un punto a otro, con este viajamos a la velocidad de 1 clic.**
