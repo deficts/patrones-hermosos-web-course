@@ -68,7 +68,29 @@ Para que aparezca como un link y te permita enlazar tu página a otra o a un vid
 Ejemplo
 ```
 <a href="https://www.google.com/">Enlace a otra página</a>
+
 ```
+##  Imágenes 
+Las imágenes se pueden insertar en tu página utilizando un hipervínculo, pero hay que tener en cuenta que utiliza un formato en específico
+
+Además es necesario guardar tu imagen en algún lugar al que puedas acceder usando tu ruta, ya sea en tu escritorio, en la carpeta donde se encuentre el archivo, etc. Se vería de la siguiente manera:
+```
+<img src="RUTA DE DONDE ESTÁ GUARDADO" /> 
+```
+Si gustas puedes definir el tamaño de las imágenes con los siguientes tamaños
+
+```
+<img src="RUTA DE DONDE ESTÁ GUARDADO" width="400" height="400"/> 
+```
+
+Un ejemplo sería este: 
+
+```
+<img src="../Desktop/MN.png" width="400" height="400"/> 
+
+```
+
+Puedes consultar el ejemplo en index.html para ver como se ve la imagen. 
 
 ## Tablas
 La etiqueta **table** define una tabla. Las tablas tienen renglones, los cuales definiremos con la etiqueta **tr**. Para agregar celdas podemos utilizar dos tipos de etiquetas: **th** para indicar encabezados, y **td** para una celda común. Todas estas etiquetas tienen que tener su respectiva etiqueta de cierre. Checa este ejemplo:
@@ -107,7 +129,9 @@ Este codigo HTML se debe de ver así:
     <img src="https://github.com/deficts/patrones-hermosos-web-course/blob/day1/dia1/Imagen.png" width="400" height="400"/> 
 </p>
 
-Ahora te toca a tí. Has una tabla que tenga el nombre, la estatura y el nombre de la mascota de algunas de tus compañeras. Utiliza el código de ejemplo como idea para hacer el tuyo. Además coloca en tu página web algún enlace a un video, imágen u otra página que quieras.
+Ahora te toca a tí. Has una tabla que tenga el nombre, la estatura y el nombre de la mascota de algunas de tus compañeras. Utiliza el código de ejemplo como idea para hacer el tuyo. 
+Además coloca en tu página web algún enlace a un video, imágen u otra página que quieras.
+No olvides incrustar alguna imagen.
 
 ###### Hasta el momento todo se ha visto muy plano. ¿Cómo le agrego personalidad a mi página?
 
