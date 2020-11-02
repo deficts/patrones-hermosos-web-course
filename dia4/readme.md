@@ -5,7 +5,7 @@
 -A continuación se muestran 4 opciones de las cuales tienes que elegir una para desarrollar con las habilidades que has adquirido a lo largo de la semana. 
 
 Opción 1 
-¡Salvemos el planeta! 
+**¡Salvemos el planeta!** 
 Diseña una página web para concientizar respecto al cambio climático y el impacto que tienen nuestras acciones diarias en el planeta. 
 -Crea una alerta que le de la bienvenida al usuario y añade el texto que desees, el texto debe estar relacionado a la concientización del cambio climático. 
 -Inserta una fotografía en la que se aprecie un ejemplo claro del efecto del cambio climático. 
@@ -15,7 +15,7 @@ Diseña una página web para concientizar respecto al cambio climático y el imp
 -Escribe una reflexión respecto a la situación climática global. Usa al menos dos estilos distintos para el texto y crea al menos dos títulos con tamaño distinto. 
 
 Opción 2
-Mi artista favorito 
+**Mi artista favorito** 
 Diseña una página web dedicada a tu banda o artista favorito. 
 -Crea una alerta de bienvenida para el usuario y añade el texto que desees. El texto debe estar relacionado a lo genial que es tu artista favorito. 
 -Inserta 3 fotografías de conciertos o portadas de discos de tu artista. 
@@ -24,7 +24,7 @@ Diseña una página web dedicada a tu banda o artista favorito.
 -Inserta el módulo de Spotify para poder reproducir música de tu artista. 
 
 Opción 3 
-Querido diario
+**Querido diario**
 Diseña una página web para tu blog personal.
 -Crea una alerta de bienvenida al usuario y añade el texto que desees. El texto debe estar relacionado a ti o algo que dirías. 
 -Inserta una fotografía de portada. De preferencia una que hayas tomado tú. 
