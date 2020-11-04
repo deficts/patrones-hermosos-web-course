@@ -62,4 +62,4 @@ Diseña una página web para tu blog personal.
 -Escribe la primera entrada de tu blog. Algún suceso importante que viviste o algo que quisieras compartir con el mundo. Debe tener al menos 4 párrafos, dos de ellos con formato distinto. Crea al menos dos títulos con tamaño distinto. 
 
 
-Opción 4
+
