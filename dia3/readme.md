@@ -161,3 +161,126 @@ body{
     box-shadow: 0 0 20px 1px;
 }
 ```
+
+**Por último vamos a jugar un poco con JavaScript, primero haremos un reloj**
+
+
+````html
+<!--Primero este es el código de html del reloj-->
+<div class="row">
+    <div class="offset-md-5 col-md-2  col-sm-12 text-center">
+        <h4>La hora es:</h4>
+        <p id="reloj" clas="text-center"></p>
+    </div>
+</div>
+
+````
+
+````js
+/*Este es el código de JS que va en nuestro archivo main.js*/
+
+//Creamos una función que se comunique con nuestro html y lo modifique
+function generarHora(){
+    var now = new Date()
+    var h = now.getHours()
+    var m = now.getMinutes()
+    var s = now.getSeconds()
+    m = agregarCeros(m)
+    s = agregarCeros(s)
+    //Buscar nuestro reloj en nuestro html
+    document.getElementById("reloj").innerText = h + ':' + m + ':' + s
+    var t = setTimeout(generarHora, 500);
+}
+
+//Función de ayuda para agregar ceros delante de números
+function agregarCeros(tiempo){
+    if(tiempo < 10){
+        tiempo = "0"+tiempo
+    }
+    return tiempo
+}
+
+//Llamamos la función
+generarHora()
+````
+
+**Ahora creemos un quiz para compartirlo con nuestros amigos**
+
+````html
+<div class="row mb-4">
+    <div class="offset-md-3"></div>
+    <div class="col-md-6 carta">
+        <h3 class="text-center">Quiz sobre mí</h3>
+        <form>
+            <div class="form-group">
+                <label for="edad">¿Cuántos años tengo?</label>
+                <select class="form-control" id="edad">
+                    <option>Ni idea</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <!--Puedes poner las preguntas que quieras, lo importante es ponerle un id significativo para poder acceder a él con JS-->
+                <label for="edad">¿Cuál es mi comida favorita?</label>
+                <select class="form-control" id="comida">
+                    <option>Ni idea</option>
+                    <option>Tacos</option>
+                    <option>Pizza</option>
+                    <option>Pozole</option>
+                    <option>Hamburgesa</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="edad">¿Cuál es mi lenguaje de programación favorito?</label>
+                <select class="form-control" id="lenguaje">
+                    <option>Ni idea</option>
+                    <option>Python</option>
+                    <option>Java</option>
+                    <option>TypeScript</option>
+                    <option>JavaScript</option>
+                </select>
+            </div>
+            <!--Finalmente llamamos nuestra función de JS con un evento de click-->
+            <button type="button" class="btn btn-primary mb-2 float-right" onclick="revisarQuiz()">Enviar</button>
+        </form>
+    </div>
+</div>
+````
+
+```js
+/*Función de JS para revisar nuestro quiz*/
+function revisarQuiz(){
+    let count = 0
+
+    //Obtenemos cada uno de los elementos de html y extraemos su valor en una variable
+    var edadElement = document.getElementById("edad")
+    var edad = edadElement.options[edadElement.selectedIndex].value
+    
+    var comidaElement = document.getElementById("comida")
+    var comida = comidaElement.options[comidaElement.selectedIndex].value
+
+    var lenguajeElement = document.getElementById("lenguaje")
+    var lenguaje = lenguajeElement.options[lenguajeElement.selectedIndex].value
+    
+    //Aquí checamos cada una de las respuestas
+    if(edad === "20"){
+        count++
+    }
+
+    if(comida === "Tacos"){
+        count++
+    }
+
+    if(lenguaje === "JavaScript"){
+        count++
+    }
+
+    alert("Tuviste: " + count + "/3 respuestas correctas.")
+}
+
+```
